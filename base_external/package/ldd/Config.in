@@ -1,0 +1,7 @@
+
+config BR2_PACKAGE_LDD
+	bool "ldd"
+        depends on BR2_LINUX_KERNEL
+	help
+	  Includes the misc and scull module into image.
+	  Used to understand buildroot external trees and package builds.
